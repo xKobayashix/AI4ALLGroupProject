@@ -1,0 +1,13 @@
+ml-project/
+├── data/               Raw & processed data (usually gitignored)
+├── src/                Reusable modules (data loading, features, models)
+├── scripts/            Entry points: train.py, predict.py
+├── notebooks/          EDA-type notebooks
+├── config/             Hyperparameters in YAML
+├── models/             Saved model weights (>100MB needs Git LFS)
+├── outputs/            Figures, metrics, logs
+├── app/                Streamlit demo app
+│   └── app.py
+├── requirements.txt    Pinned versions of packages
+├── .gitignore
+└── README.md           Setup, usage, results (this file)
